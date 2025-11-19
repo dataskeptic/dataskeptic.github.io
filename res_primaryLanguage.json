@@ -1,7 +1,7 @@
 {
     "basic_info": {
       "description_header": "Hi",
-      "description": "👋 I am a Computer Science student fluent in English, with practical experience in Artificial Intelligence and software development. My academic journey, combined with my curiosity, has led me to independently explore various technologies, always seeking to learn and apply new tools that can positively impact the world around us. I have solid skills in software development and advanced knowledge in AI techniques such as Machine Learning, Natural Language Processing (NLP), and Computer Vision. I stay up to date with the latest tech trends because I believe that innovation and continuous learning are essential for success in the IT field. I am always looking to apply and expand my skills, collaborate with an innovative team, and contribute to creating solutions that generate real impact. I am committed to my professional growth and excited to join a team that shares the vision of driving transformation through technology.",
+      "description": "👋 I am a Computer Science student fluent in English, with practical experience in Artificial Intelligence and software development. My academic journey, combined with my curiosity, has led me to independently explore various technologies, always seeking to learn and apply new tools that can positively impact the world around us. I have solid skills in software development and advanced knowledge in AI techniques such as Machine Learning, Natural Language Processing (NLP), and Computer Vision. I stay up to date with the latest tech trends because I believe that innovation and continuous learning are essential for success in the IT field. I am always looking to apply and expand my skills, collaborate with an innovative team, and contribute to creating solutions that generate real impact.",
       "section_name": {
         "about": "About me",
         "projects": "Projects",
@@ -21,43 +21,51 @@
         "technologies": [
           {
             "class": "devicon-python-plain",
-            "name": "Python"
+            "name": "Python",
+            "isImage": false
+
           },
           {
             "class": "devicon-scikitlearn-plain",
-            "name": "Scikit Learn"
+            "name": "Scikit Learn",
+            "isImage": false
           },
           {
             "class": "devicon-pandas-plain",
-            "name": "Pandas"
+            "name": "Pandas",
+            "isImage": false
           }
         ]
       },
       {
-        "title": "Jaguaracambé website",
-        "startDate": "2023",
-        "description": "Website developed using Nexjs.",
+        "title": "RAG app - Atas da UFPI",
+        "startDate": "2025",
+        "description": "Website developed using streamlit! This is a MVP of a RAG (Retrieval-Augmented Generation) application that uses Langchain to create a question-answering system based on the meeting minutes of the Federal University of Piauí (UFPI). The application allows users to ask questions related to the content of the meeting minutes and receive relevant answers based on the information contained in the documents.",
         "images": [
-          "images/portfolio/Jaguaracambe/jaguaracambe.png"
+          "images/portfolio/Jaguaracambe/RAG.png"
           
         ],
-        "url": "https://www.jaguaracambe.org/",
+        "url": "https://github.com/dataskeptic/talk-with-docs",
         "technologies": [
           {
-            "class": "devicon-react-original",
-            "name": "React"
+            "name": "Langchain",
+            "isImage": true,
+            "path": "images/langchain-icon.png" 
           },
           {
-            "class": "devicon-javascript-plain",
-            "name": "JavaScript"
+            "class": "devicon-python-plain",
+            "name": "Python",
+            "isImage": false
           },
           {
-            "class": "devicon-html5-plain",
-            "name": "HTML"
+            "class": "devicon-streamlit-plain",
+            "name": "HTML",
+            "isImage": false
           },
           {
-            "class": "devicon-css3-plain",
-            "name": "CSS"
+            "path": "images/nlp.png",
+            "name": "'",
+            "isImage": true
           }
         ]
       },
@@ -72,24 +80,44 @@
         "technologies": [
           {
             "class": "devicon-python-plain",
-            "name": "Python"
+            "name": "Python",
+            "isImage": false
           },
           {
             "class": "devicon-opencv-plain",
-            "name": "OpenCV"
+            "name": "OpenCV",
+            "isImage": false
           },
           {
             "class": "devicon-numpy-plain",
-            "name": "Numpy"
+            "name": "Numpy",
+            "isImage": false
           }
         ]
       }
     ],
     "experience": [
       {
+        "company": "MedSafe",
+        "title": "Tech Intern",
+        "years": "01.2025 - present",
+        "mainTech": [
+          "Python",
+          "React"
+        ],
+        "technologies": [
+          "Python",
+          "Pandas",
+          "Angular",
+          "TypeScript",
+          "LLms"
+        ],
+        "description": "As a Tech Intern, I was involved in front-end software development and process automation. Also worked with data cleaning and processing using Python and Pandas."
+      },
+      {
         "company": "Jaguaracambé",
         "title": "Developer",
-        "years": "10.2023 - present",
+        "years": "10.2023 - 2024",
         "mainTech": [
           "Nexjs 8/9/10"
         ],
