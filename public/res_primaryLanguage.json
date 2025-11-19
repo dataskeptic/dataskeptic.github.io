@@ -110,9 +110,11 @@
           "Pandas",
           "Angular",
           "TypeScript",
+          "AirFlow",
+          "Docker",
           "LLms"
         ],
-        "description": "As a Tech Intern, I was involved in front-end software development and process automation. Also worked with data cleaning and processing using Python and Pandas."
+        "description": "As a Technology Intern, I divided my focus between front-end development and data. In web development, I worked with Angular to build the Piauí Primeira Infância system. On a separate front, I performed data cleaning and structuring (Excel, CSV) using Python and Pandas. Additionally, I was responsible for orchestration using Airflow, creating specific workflows to both monitor routines and generate automated reports from the database."
       },
       {
         "company": "Jaguaracambé",

@@ -108,9 +108,11 @@
         "Pandas",
         "Angular",
         "TypeScript",
+        "AirFlow",
+        "Docker",
         "LLMs"
       ],
-      "description": "Como Estagiário de Tecnologia, atuei no desenvolvimento de software front-end usando Angular no sistema do Piauí Primeira Infância. Também trabalhei com limpeza e tratamento de dados utilizando Python e Pandas."
+      "description": "Como Estagiário de Tecnologia, dividi minha atuação entre o desenvolvimento front-end e dados. No desenvolvimento web, atuei com Angular na construção do sistema Piauí Primeira Infância. Em uma frente distinta, realizei a limpeza e estruturação de dados (Excel, CSV) utilizando Python e Pandas. Além disso, fui responsável pela orquestração com Airflow, criando fluxos específicos tanto para monitorar rotinas quanto para gerar relatórios automatizados a partir do banco de dados."
     },
     {
       "company": "Jaguaracambé",
