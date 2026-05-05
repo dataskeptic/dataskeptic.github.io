@@ -1,7 +1,7 @@
 {
   "basic_info": {
     "description_header": "Hi",
-    "description": "👋 I am a Computer Science student fluent in English, with practical experience in Artificial Intelligence and software development. My academic journey, combined with my curiosity, has led me to independently explore various technologies, always seeking to learn and apply new tools that can positively impact the world around us. I have solid skills in software development and advanced knowledge in AI techniques such as Machine Learning, Natural Language Processing (NLP), and Computer Vision. I stay up to date with the latest tech trends because I believe that innovation and continuous learning are essential for success in the IT field. I am always looking to apply and expand my skills, collaborate with an innovative team, and contribute to creating solutions that generate real impact.",
+    "description": "I am a Computer Science student at the Federal University of Piauí (UFPI), focused on building practical AI systems with Python, NLP, RAG, and data pipelines. My experience includes developing LLM-based workflows, working with embeddings and vector databases, and building solutions that connect institutional knowledge with accessible conversational interfaces. I have also worked with data processing, automation, and orchestration using tools such as Pandas, Airflow, Docker, and LangChain. I am especially interested in AI Engineer roles where I can contribute to production-oriented systems involving retrieval, backend workflows, and applied machine learning.",
     "section_name": {
       "about": "About me",
       "projects": "Projects",
