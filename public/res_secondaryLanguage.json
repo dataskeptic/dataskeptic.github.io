@@ -11,13 +11,13 @@
   },
   "projects": [
     {
-      "title": "Similaridade de Texto - PLN",
-      "startDate": "2022",
-      "description": "Projeto sobre correção automática para questões discursivas. O projeto envolveu a análise de trabalhos relacionados e a implementação de diferentes técnicas de medidas de similaridade. Comparei o desempenho de diversas métricas de similaridade (como Cosine Similarity, Jaccard Index e Word Mover's Distance) utilizando diferentes modelos de representação vetorial, incluindo Bag of Words, TF-IDF e word embeddings.",
+      "title": "Chatbot Institucional do departamento de computação",
+      "startDate": "2026",
+      "description": "Um chatbot institucional para o curso de Ciência da Computação da Universidade Federal do Piauí (UFPI), construído com um pipeline de RAG (Geração com Recuperação Aumentada). O sistema utiliza raspagem de documentos, embeddings de texto e um banco de dados vetorial para responder dúvidas dos alunos com base em conteúdos oficiais do departamento — aproximando as informações institucionais de uma IA acessível e conversacional.",
       "images": [
-        "images/portfolio/NLP/pln.png"
+        "images/portfolio/dcufpi/chatDCUFPI.png"
       ],
-      "url": "https://github.com/dataskeptic/relatorioPIBIC/tree/main",
+      "url": "https://github.com/dataskeptic/CC-UFPI-CHAT",
       "technologies": [
         {
           "class": "devicon-python-plain",
@@ -25,14 +25,19 @@
           "isImage": false
         },
         {
-          "class": "devicon-scikitlearn-plain",
-          "name": "Scikit Learn",
-          "isImage": false
+          "name": "Langchain",
+          "isImage": true,
+          "path": "images/langchain-icon.png"
         },
         {
           "class": "devicon-pandas-plain",
           "name": "Pandas",
           "isImage": false
+        },
+        {
+          "name": "Langchain",
+          "isImage": true,
+          "path": "images/langchain-icon.png"
         }
       ]
     },
