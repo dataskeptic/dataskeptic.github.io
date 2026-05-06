@@ -1,165 +1,168 @@
 {
-    "basic_info": {
-      "description_header": "Hi",
-      "description": "👋 I am a Computer Science student fluent in English, with practical experience in Artificial Intelligence and software development. My academic journey, combined with my curiosity, has led me to independently explore various technologies, always seeking to learn and apply new tools that can positively impact the world around us. I have solid skills in software development and advanced knowledge in AI techniques such as Machine Learning, Natural Language Processing (NLP), and Computer Vision. I stay up to date with the latest tech trends because I believe that innovation and continuous learning are essential for success in the IT field. I am always looking to apply and expand my skills, collaborate with an innovative team, and contribute to creating solutions that generate real impact.",
-      "section_name": {
-        "about": "About me",
-        "projects": "Projects",
-        "skills": "Tecnical skills",
-        "experience": "Experience"
-      }
+  "basic_info": {
+    "description_header": "Hi",
+    "description": "I am a Computer Science student at the Federal University of Piauí (UFPI), focused on building practical AI systems with Python, NLP, RAG, and data pipelines. My experience includes developing LLM-based workflows, working with embeddings and vector databases, and building solutions that connect institutional knowledge with accessible conversational interfaces. I have also worked with data processing, automation, and orchestration using tools such as Pandas, Airflow, Docker, and LangChain. I am especially interested in AI Engineer roles where I can contribute to production-oriented systems involving retrieval, backend workflows, and applied machine learning.",
+    "section_name": {
+      "about": "About me",
+      "projects": "Projects",
+      "skills": "Tecnical skills",
+      "experience": "Experience"
+    }
+  },
+  "projects": [
+    {
+      "title": "Chatbot for Computer Science department",
+      "startDate": "2026",
+      "description": "An institutional chatbot for the Computer Science department of the Federal University of Piauí (UFPI), built with a RAG (Retrieval-Augmented Generation) pipeline. The system uses document scraping, text embeddings, and a vector database to answer students' questions based on official departmental content — bridging the gap between institutional information and accessible, conversational AI.",
+      "images": [
+        "images/portfolio/dcufpi/chatDCUFPI.png"
+      ],
+      "url": "https://github.com/dataskeptic/CC-UFPI-CHAT",
+      "technologies": [
+        {
+          "class": "devicon-python-plain",
+          "name": "Python",
+          "isImage": false
+        },
+        {
+          "name": "Langchain",
+          "isImage": true,
+          "path": "images/langchain-icon.png"
+        },
+        {
+          "class": "devicon-pandas-plain",
+          "name": "Pandas",
+          "isImage": false
+        },
+        {
+          "name": "Langchain",
+          "isImage": true,
+          "path": "images/langchain-icon.png"
+        }
+      ]
     },
-    "projects": [
-      {
-        "title": "Text similarity - NLP",
-        "startDate": "2022",
-        "description": "The main goal of this project is to compare the performance of different word embeddings and similarity measures on both lemmatized and stemmed forms of text. By using a variety of NLP techniques, we aim to measure similarity between words and evaluate the results for NLP tasks such as text classification, information retrieval, and clustering.",
-        "images": [
-          "images/portfolio/NLP/pln.png"
-        ],
-        "url": "https://github.com/dataskeptic/relatorioPIBIC/tree/main",
-        "technologies": [
-          {
-            "class": "devicon-python-plain",
-            "name": "Python",
-            "isImage": false
-
-          },
-          {
-            "class": "devicon-scikitlearn-plain",
-            "name": "Scikit Learn",
-            "isImage": false
-          },
-          {
-            "class": "devicon-pandas-plain",
-            "name": "Pandas",
-            "isImage": false
-          }
-        ]
-      },
-      {
-        "title": "RAG app - Atas da UFPI",
-        "startDate": "2025",
-        "description": "Website developed using streamlit! This is a MVP of a RAG (Retrieval-Augmented Generation) application that uses Langchain to create a question-answering system based on the meeting minutes of the Federal University of Piauí (UFPI). The application allows users to ask questions related to the content of the meeting minutes and receive relevant answers based on the information contained in the documents.",
-        "images": [
-          "images/portfolio/Jaguaracambe/RAG.png"
-          
-        ],
-        "url": "https://github.com/dataskeptic/talk-with-docs",
-        "technologies": [
-          {
-            "name": "Langchain",
-            "isImage": true,
-            "path": "images/langchain-icon.png" 
-          },
-          {
-            "class": "devicon-python-plain",
-            "name": "Python",
-            "isImage": false
-          },
-          {
-            "class": "devicon-streamlit-plain",
-            "name": "HTML",
-            "isImage": false
-          },
-          {
-            "path": "images/nlp.png",
-            "name": "'",
-            "isImage": true
-          }
-        ]
-      },
-      {
-        "title": "Parking spot detector",
-        "startDate": "2024",
-        "description": "The project combines techniques of digital image processing to build a parking spot detector without using deep learning techniques, focusing on developing a more lightweight application.",
-        "images": [
-          "images/portfolio/parking/parking.png"
-        ],
-        "url": "https://github.com/dataskeptic/Parking-spot-detector",
-        "technologies": [
-          {
-            "class": "devicon-python-plain",
-            "name": "Python",
-            "isImage": false
-          },
-          {
-            "class": "devicon-opencv-plain",
-            "name": "OpenCV",
-            "isImage": false
-          },
-          {
-            "class": "devicon-numpy-plain",
-            "name": "Numpy",
-            "isImage": false
-          }
-        ]
-      }
-    ],
-    "experience": [
-      {
-        "company": "MedSafe",
-        "title": "Tech Intern",
-        "years": "01.2025 - present",
-        "mainTech": [
-          "Python",
-          "React"
-        ],
-        "technologies": [
-          "Python",
-          "Pandas",
-          "Angular",
-          "TypeScript",
-          "AirFlow",
-          "Docker",
-          "LLms"
-        ],
-        "description": "As a Technology Intern, I divided my focus between front-end development and data. In web development, I worked with Angular to build the Piauí Primeira Infância system. On a separate front, I performed data cleaning and structuring (Excel, CSV) using Python and Pandas. Additionally, I was responsible for orchestration using Airflow, creating specific workflows to both monitor routines and generate automated reports from the database."
-      },
-      {
-        "company": "Jaguaracambé",
-        "title": "Developer",
-        "years": "10.2023 - 2024",
-        "mainTech": [
-          "Nexjs 8/9/10"
-        ],
-        "technologies": [
-          "Javascript",
-          "Nexjs",
-          "html",
-          "css",
-          "React"
-        ],
-        "description": "jaguaracambé is a wild animal conservation NGO, where I had the opportunity to contribute to this initiative that I admire so much. I was responsible for building their website, as well as participating in the environmental education project they coordinate. You can see the website here: https://www.jaguaracambe.org/"
-      },
-      {
-        "company": "Federal University of Piauí - UFPI",
-        "title": "Undergraduate Research - Program for Scientific Initiation Scholarships",
-        "years": "07.2022 - 06.2023",
-        "mainTech": [
-          "Python"
-        ],
-        "technologies": [
-          "Python",
-          "Scikit Learn",
-          "Pandas",
-          "SpaCy",
-          "NLTK",
-          "Gensim"
-        ],
-        "description": "I conducted research on an automatic correction system for free-text answers. The project involved analyzing existing studies in the field and implementing various similarity measurement techniques. I compared the performance of Cosine Similarity, Jaccard Index, and Word Mover's Distance using different vector space models, including Bag of Words, TF-IDF, and word embeddings."
-      },
-      {
-        "company": "Federal University of Piauí - UFPI",
-        "title": "Teaching Assistant of Data structure",
-        "years": "08.2022 - 11.2022",
-        "mainTech": [
-          "Java"
-        ],
-        "technologies": [
-          "Java"
-        ],
-        "description": "Graded assignments and exams, and provided feedback to students. Also provided one-on-one support to students, helping them to understand and implement data structures and algorithms. Some of the topics covered: Linked lists, Stacks, Queues, Trees and graphs, Hash tables, Heaps, Time and space  complexity, Algorithmic design."
-      }
-    ]
-  }
+    {
+      "title": "RAG app - Atas da UFPI",
+      "startDate": "2025",
+      "description": "Website developed using streamlit! This is a MVP of a RAG (Retrieval-Augmented Generation) application that uses Langchain to create a question-answering system based on the meeting minutes of the Federal University of Piauí (UFPI). The application allows users to ask questions related to the content of the meeting minutes and receive relevant answers based on the information contained in the documents.",
+      "images": [
+        "images/portfolio/Jaguaracambe/RAG.png"
+      ],
+      "url": "https://github.com/dataskeptic/talk-with-docs",
+      "technologies": [
+        {
+          "name": "Langchain",
+          "isImage": true,
+          "path": "images/langchain-icon.png"
+        },
+        {
+          "class": "devicon-python-plain",
+          "name": "Python",
+          "isImage": false
+        },
+        {
+          "class": "devicon-streamlit-plain",
+          "name": "Streamlit",
+          "isImage": false
+        },
+        {
+          "path": "images/nlp.png",
+          "name": "'",
+          "isImage": true
+        }
+      ]
+    },
+    {
+      "title": "Parking spot detector",
+      "startDate": "2024",
+      "description": "The project combines techniques of digital image processing to build a parking spot detector without using deep learning techniques, focusing on developing a more lightweight application.",
+      "images": [
+        "images/portfolio/parking/parking.png"
+      ],
+      "url": "https://github.com/dataskeptic/Parking-spot-detector",
+      "technologies": [
+        {
+          "class": "devicon-python-plain",
+          "name": "Python",
+          "isImage": false
+        },
+        {
+          "class": "devicon-opencv-plain",
+          "name": "OpenCV",
+          "isImage": false
+        },
+        {
+          "class": "devicon-numpy-plain",
+          "name": "Numpy",
+          "isImage": false
+        }
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company": "MedSafe",
+      "title": "Tech Intern",
+      "years": "01.2025 - present",
+      "mainTech": [
+        "Python",
+        "React"
+      ],
+      "technologies": [
+        "Python",
+        "Pandas",
+        "Angular",
+        "TypeScript",
+        "AirFlow",
+        "Docker",
+        "LLms"
+      ],
+      "description": "As a Technology Intern, I divided my focus between front-end development and data. In web development, I worked with Angular to build the Piauí Primeira Infância system. On a separate front, I performed data cleaning and structuring (Excel, CSV) using Python and Pandas. Additionally, I was responsible for orchestration using Airflow, creating specific workflows to both monitor routines and generate automated reports from the database."
+    },
+    {
+      "company": "Jaguaracambé",
+      "title": "Developer",
+      "years": "10.2023 - 2024",
+      "mainTech": [
+        "Nexjs 8/9/10"
+      ],
+      "technologies": [
+        "Javascript",
+        "Nexjs",
+        "html",
+        "css",
+        "React"
+      ],
+      "description": "jaguaracambé is a wild animal conservation NGO, where I had the opportunity to contribute to this initiative that I admire so much. I was responsible for building their website, as well as participating in the environmental education project they coordinate. You can see the website here: https://www.jaguaracambe.org/"
+    },
+    {
+      "company": "Federal University of Piauí - UFPI",
+      "title": "Undergraduate Research - Program for Scientific Initiation Scholarships",
+      "years": "07.2022 - 06.2023",
+      "mainTech": [
+        "Python"
+      ],
+      "technologies": [
+        "Python",
+        "Scikit Learn",
+        "Pandas",
+        "SpaCy",
+        "NLTK",
+        "Gensim"
+      ],
+      "description": "I conducted research on an automatic correction system for free-text answers. The project involved analyzing existing studies in the field and implementing various similarity measurement techniques. I compared the performance of Cosine Similarity, Jaccard Index, and Word Mover's Distance using different vector space models, including Bag of Words, TF-IDF, and word embeddings."
+    },
+    {
+      "company": "Federal University of Piauí - UFPI",
+      "title": "Teaching Assistant of Data structure",
+      "years": "08.2022 - 11.2022",
+      "mainTech": [
+        "Java"
+      ],
+      "technologies": [
+        "Java"
+      ],
+      "description": "Graded assignments and exams, and provided feedback to students. Also provided one-on-one support to students, helping them to understand and implement data structures and algorithms. Some of the topics covered: Linked lists, Stacks, Queues, Trees and graphs, Hash tables, Heaps, Time and space  complexity, Algorithmic design."
+    }
+  ]
+}
