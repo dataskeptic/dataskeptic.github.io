@@ -1,7 +1,7 @@
 {
   "basic_info": {
     "description_header": "Olá",
-    "description": "Sou estudante de Ciência da Computação na Universidade Federal do Piauí (UFPI), com foco no desenvolvimento de sistemas de IA aplicados usando Python, NLP, RAG e pipelines de dados. Minha experiência inclui a criação de fluxos com LLMs, trabalho com embeddings e bancos vetoriais, além do desenvolvimento de soluções que conectam conhecimento institucional a interfaces conversacionais acessíveis. Também atuei com processamento de dados, automação e orquestração utilizando ferramentas como Pandas, Airflow, Docker e LangChain. Tenho interesse em oportunidades como AI Engineer, contribuindo para sistemas voltados à produção com recuperação de informação, workflows de backend e machine learning aplicado.",
+    "description": "Sou Cientista da Computação na Universidade Federal do Piauí (UFPI), com foco no desenvolvimento de sistemas de IA aplicados usando Python, NLP, RAG e pipelines de dados. Minha experiência inclui a criação de fluxos com LLMs, trabalho com embeddings e bancos vetoriais, além do desenvolvimento de soluções que conectam conhecimento institucional a interfaces conversacionais acessíveis. Também atuei com processamento de dados, automação e orquestração utilizando ferramentas como Pandas, Airflow, Docker e LangChain. Tenho interesse em oportunidades como AI Engineer, contribuindo para sistemas voltados à produção com recuperação de informação, workflows de backend e machine learning aplicado.",
     "section_name": {
       "about": "Sobre mim",
       "projects": "Projetos",
